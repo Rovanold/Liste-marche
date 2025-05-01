@@ -1,0 +1,29 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #4f46e5;
+  padding: 12px 0;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  color: #d1d5db;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
